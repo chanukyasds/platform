@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+psycopg[binary]
+PyYAML
+kubernetes
+httpx

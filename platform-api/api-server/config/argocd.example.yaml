@@ -1,0 +1,5 @@
+# argocd.example.yaml
+clusters:
+  argocd01:
+    server: "https://argocd.example.com"
+    verify_ssl: true

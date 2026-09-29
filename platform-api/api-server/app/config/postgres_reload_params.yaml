@@ -1,0 +1,5 @@
+allowed_reload_parameters:
+  log_min_duration_statement:
+  log_lock_waits:
+  deadlock_timeout:
+  max_sync_workers_per_subscription:

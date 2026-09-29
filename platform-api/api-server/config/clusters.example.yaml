@@ -1,0 +1,7 @@
+# clusters.example.yaml
+clusters:
+  pg01:
+    host: 10.0.0.10
+    port: 5432
+    database: postgres
+    datadir: /var/lib/postgresql

@@ -1,0 +1,6 @@
+# repositories.example.yaml
+repositories:
+  kubernetes:
+    owner: your-github-user
+    repo: your-repository
+    branch: main

@@ -1,0 +1,5 @@
+# kubernetes.example.yaml
+clusters:
+  k8s01:
+    api_server: "https://10.0.0.20:6443"
+    ca_cert: "/path/to/ca.crt"
