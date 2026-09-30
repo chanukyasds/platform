@@ -32,6 +32,44 @@ AI Clients
 
 All backend access, credentials, validation, and operational controls are handled by `platform-api`.
 
+## Available MCP Actions
+
+### PostgreSQL
+
+- Get settings
+- Get single setting
+- Reload configuration
+- Set allowlisted parameter
+- List databases
+- Analyze table
+- Vacuum table
+- Check PostgreSQL SQL files
+- Trigger checkpoint
+- Get uptime
+- Get active replication slots
+
+### Kubernetes
+
+- Get nodes
+- Get deployments
+- Get deployment
+- Get StatefulSets
+- Get StatefulSet
+
+### Argo CD
+
+- Get applications
+- Get application
+- Sync application
+
+### GitHub
+
+- Get file
+- Get latest commit
+- Merge pull request
+
+> Actions are exposed through `platform-mcp` and delegated to `platform-api` for validation and backend execution.
+
 
 ## Repository
 
